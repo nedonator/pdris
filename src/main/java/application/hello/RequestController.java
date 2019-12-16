@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @RestController
-public class KekController {
+public class RequestController {
     private final RBKResponse response;
 
     @Autowired
-    public KekController(RBKResponse response) {
+    public RequestController(RBKResponse response) {
         this.response = response;
     }
 
