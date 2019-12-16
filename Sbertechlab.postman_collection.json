@@ -28,7 +28,7 @@
 				}
 			],
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"url": {
 					"raw": "http://localhost:8091/weather?temperature=2.03",
